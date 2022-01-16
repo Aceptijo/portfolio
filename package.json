@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "@csstools/normalize.css": "^12.0.0",
     "gh-pages": "^3.2.3"
   },
   "name": "portfolio",
