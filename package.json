@@ -1,7 +1,4 @@
 {
-  "dependencies": {
-    "gh-pages": "^3.2.3"
-  },
   "name": "portfolio",
   "version": "1.0.0",
   "main": "index.js",
@@ -10,7 +7,10 @@
   },
   "keywords": [],
   "author": "",
-  "homepage": "https://aceptijo.io/portfolio",
+  "homepage": "https://Aceptijo.io/portfolio",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
