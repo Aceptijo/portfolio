@@ -1,0 +1,291 @@
+@font-face {
+  font-family: 'Gilroy Bold';
+  src: url("/nighttrips/fonts/Gilroy-Bold.eot");
+  src: url("/nighttrips/fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"), url("/nighttrips/fonts/Gilroy-Bold.woff") format("woff"), url("/nighttrips/fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy Medium';
+  src: url("/nighttrips/fonts/Gilroy-Medium.eot");
+  src: url("/nighttrips/fonts/Gilroy-Medium.eot?#iefix") format("embedded-opentype"), url("/nighttrips/fonts/Gilroy-Medium.woff") format("woff"), url("/nighttrips/fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  max-width: 49.7%;
+  margin: auto;
+  padding-bottom: 7%;
+}
+
+.header .header-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #828282;
+  line-height: 1;
+}
+
+.header .header-row .header-items {
+  font-size: 18px;
+  font-family: 'Gilroy Bold', sans-serif;
+  color: #828282;
+  text-decoration: none;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.header .header-row .header-items span {
+  color: #070707;
+}
+
+.header .author-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .author-info .author-name {
+  font-size: 47px;
+  padding-top: 3%;
+  font-family: 'Gilroy Bold', sans-serif;
+}
+
+.header .author-info .author-work {
+  font-size: 18px;
+  padding-top: 6%;
+  font-family: 'Gilroy Medium', sans-serif;
+}
+
+.header .author-info .author-info-lang {
+  font-size: 16px;
+  padding-bottom: 4%;
+  padding-right: 11%;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+  font-family: 'Gilroy Medium', sans-serif;
+  color: #828282;
+}
+
+.header .author-info .author-info-lang span {
+  color: #070707;
+  font-weight: 900;
+}
+
+.header .header-photo {
+  padding-top: 4%;
+}
+
+.header .header-photo img {
+  max-width: 100%;
+}
+
+.second-page {
+  max-width: 100%;
+  margin: auto;
+  background: #F6F6F6;
+  padding: 0% 31%;
+}
+
+.second-page .block-about h1 {
+  margin: 0;
+  text-align: center;
+  padding-top: 17%;
+  padding-bottom: 5%;
+  font-size: 34px;
+  font-weight: 900;
+  font-family: 'Gilroy Bold', sans-serif;
+}
+
+.second-page .block-description {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Gilroy Medium', sans-serif;
+}
+
+.second-page .block-description .block-items-designer, .second-page .block-description .block-items-study {
+  padding-bottom: 6%;
+}
+
+.second-page .block-description .block-items-implement {
+  padding-bottom: 15%;
+}
+
+.third-page {
+  max-width: 49.7%;
+  margin: auto;
+}
+
+.third-page .block-skills {
+  text-align: center;
+}
+
+.third-page .block-skills h1 {
+  margin: auto;
+  padding-top: 9%;
+  padding-bottom: 7%;
+  font-size: 34px;
+  font-family: 'Gilroy Bold', sans-serif;
+}
+
+.third-page .skills-description {
+  padding-bottom: 7%;
+}
+
+.third-page .skills-description span {
+  color: #070707;
+  font-size: 18px;
+  font-family: 'Gilroy Medium', sans-serif;
+}
+
+.third-page .skills-programs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.third-page .skills-programs span {
+  font-size: 14px;
+  color: #828282;
+  font-family: 'Gilroy Bold', sans-serif;
+}
+
+.third-page .skills-programs .ps-name, .third-page .skills-programs .ai-name, .third-page .skills-programs .ae-name {
+  padding-top: 10%;
+}
+
+.third-page .skills-programs .ps-stars, .third-page .skills-programs .ai-stars, .third-page .skills-programs .ae-stars {
+  padding-top: 20%;
+}
+
+.third-page .skills-programs .figma-stars {
+  padding-top: 26%;
+}
+
+.third-page .skills-programs .figma-name {
+  padding-top: 15%;
+}
+
+.fourth-page {
+  background: #F6F6F6;
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 5% 0%;
+}
+
+.fourth-page h1 {
+  font-size: 34px;
+  font-family: 'Gilroy Bold', sans-serif;
+}
+
+.fourth-page img {
+  max-width: 100%;
+  padding-bottom: 2%;
+}
+
+.fourth-page span {
+  font-size: 18px;
+  text-decoration: underline;
+  font-family: 'Gilroy Medium', sans-serif;
+}
+
+.fourth-page .portfolio-items {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.fifth-page {
+  max-width: 49.7%;
+  margin: auto;
+}
+
+.fifth-page .contacts-title {
+  padding-bottom: 4%;
+  text-align: center;
+}
+
+.fifth-page .contacts-title h1 {
+  padding-top: 10%;
+  font-size: 34px;
+  font-family: 'Gilroy Bold', sans-serif;
+}
+
+.fifth-page .contacts-title span {
+  font-size: 18px;
+  font-family: 'Gilroy Medium', sans-serif;
+}
+
+.fifth-page .message-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 8%;
+}
+
+.fifth-page .message-btn button {
+  padding: 10px 30px;
+  font-size: 18px;
+  font-family: 'Gilroy Bold', sans-serif;
+  color: #FFFFFF;
+  background: #070707;
+  border: none;
+  border-radius: 20px;
+}
+
+.fifth-page .social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 4%;
+}
+
+.fifth-page .social-icons img {
+  padding: 0% 3%;
+}
+
+.fifth-page .trash {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Gilroy Medium', sans-serif;
+  color: #828282;
+}
+
+.fifth-page .trash span {
+  padding-bottom: 10%;
+}
+/*# sourceMappingURL=style.css.map */

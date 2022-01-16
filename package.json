@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@csstools/normalize.css": "^12.0.0",
+    "gh-pages": "^3.2.3"
+  },
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deplo": "gh-pages -d nighttrips"
+  },
+  "keywords": [],
+  "author": "",
+  "homepage": "https://Aceptijo.io/portfolio",
+  "license": "ISC",
+  "description": ""
+}
