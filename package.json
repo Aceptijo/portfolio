@@ -9,8 +9,16 @@
   "author": "",
   "homepage": "https://Aceptijo.io/portfolio",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "gh-pages": "^3.2.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aceptijo/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aceptijo/portfolio/issues"
+  },
+  "description": ""
 }
