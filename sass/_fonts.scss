@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Gilroy Bold';
+    src: url('/nighttrips/fonts/Gilroy-Bold.eot');
+    src: url('/nighttrips/fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/nighttrips/fonts/Gilroy-Bold.woff') format('woff'),
+    url('/nighttrips/fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy Medium';
+    src: url('/nighttrips/fonts/Gilroy-Medium.eot');
+    src: url('/nighttrips/fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/nighttrips/fonts/Gilroy-Medium.woff') format('woff'),
+    url('/nighttrips/fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@mixin gilBold {
+    font-family: 'Gilroy Bold', sans-serif;
+}
+
+@mixin gilMedium {
+    font-family: 'Gilroy Medium', sans-serif;
+}
