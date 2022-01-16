@@ -7,7 +7,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "deplo": "gh-pages -d nighttrips"
+    "deploy": "gh-pages -d nighttrips"
   },
   "keywords": [],
   "author": "",
